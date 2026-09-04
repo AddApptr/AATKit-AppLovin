@@ -20,8 +20,8 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta2"),
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .upToNextMinor(from: "13.6.2")),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .upToNextMinor(from: "13.6.4")),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -39,8 +39,8 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATAppLovinAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/AATAppLovinAdapter.zip",
-            checksum: "3c3f366cd21495f9b95d90b061af9bbad4e14cb9d1a31ca62f6e6b33ca657b00"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATAppLovinAdapter.zip",
+            checksum: "4fcabc19ceeeb63213248131dd510e5d1006f5dcc5e61d6bb9a000f8e2559faa"
         ),
     ]
 )
